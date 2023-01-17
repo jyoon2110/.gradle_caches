@@ -46,6 +46,9 @@
         dataLabels: {
           enabled: false
         },
+        title: {
+            text: 'Grouped Labels on the X-axis',
+        },
         legend: {
           show: false
         },
