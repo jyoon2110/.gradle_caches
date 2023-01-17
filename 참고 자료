@@ -20,8 +20,28 @@ white-space	HTML 요소 내의 여백을 설정함.
 font	모든 font 속성을 이용한 스타일을 한 줄에 설정할 수 있음.
 font-family	텍스트의 글꼴 집합(font family)을 설정함.
 font-style	주로 이탤릭체를 사용하기 위해 사용함.
-font-variant	
-텍스트에 포함된 영문자 중 소문자만을 작은 대문자(small-caps) 글꼴로 변경시킴.
-
+font-variant	텍스트에 포함된 영문자 중 소문자만을 작은 대문자(small-caps) 글꼴로 변경시킴.
 font-weight	텍스트를 얼마나 두껍게 표현할지를 설정함. (font-weight: bold)
 font-size	텍스트의 크기를 설정함. (font-size: 14px)
+
+>>>>>>>>>>>>>>>>>>   선 속성  <<<<<<<<<<<<<<<<<<
+border: solid 3px #DAA520;
+border-radius: 25px;
+
+>>>>>>>>>>>>>>>>>>   마우스 오버 버튼 속성  <<<<<<<<<<<<<<<<<<
+		a:link, a:visited {
+			background-color: #FF4500;
+			color: white;
+			padding: 15px 25px;
+			text-align: center;	
+			text-decoration: none;
+			display: inline-block;
+		}
+		a:hover, a:active { background-color: #FF4500AA; }
+  
+  <a href="/index.php" target="_blank">홈으로 가기!</a>
+
+>>>>>>>>>>>>>>>>>>   마우스 오버 버튼 속성  <<<<<<<<<<<<<<<<<<
+
+  
+   
